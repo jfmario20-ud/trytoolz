@@ -12,7 +12,7 @@ def is_equal(a, b):
     Returns:
         bool: True if a is equal to b, False otherwise
     """
-    pass
+    return True if a == b else False
 
 def greater_than(a, b):
     """
@@ -25,7 +25,7 @@ def greater_than(a, b):
     Returns:
         bool: True if a greater than b, False otherwise
     """
-    pass
+    return a > b
 
 def less_than(a, b):
     """
@@ -38,7 +38,7 @@ def less_than(a, b):
     Returns:
         bool: True if a less than b, False otherwise
     """
-    pass
+    return a <  b
 
 def greater_than_or_equal_to(a, b):
     """
@@ -51,7 +51,7 @@ def greater_than_or_equal_to(a, b):
     Returns:
         bool: True if a is greater than or equal to b, False otherwise
     """
-    pass
+    return a >= b 
 
 def less_than_or_equal_to(a, b):
     """
@@ -64,7 +64,7 @@ def less_than_or_equal_to(a, b):
     Returns:
         bool: True if a is less than or equal to b, False otherwise
     """
-    pass
+    return a <= b
 
 def falsy_or_truthy(value):
     """
